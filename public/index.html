@@ -265,7 +265,7 @@
           };
 
           const response = await axios.post(
-            `http://localhost:3001/roast?username=${username}`,
+            `/roast?username=${username}`,
             {
               jsonData: JSON.stringify(datas),
               README: readmeResponse.data,
